@@ -7,11 +7,7 @@ Now that the contract is deployed, it’s time to test its functionality! After 
 To interact with your deployed smart contract I followed the next steps:
 
 Deploy the contract after compiling:
-<<<<<<< HEAD
 ![Deploying contract](./screenshots/Deploy.JPG)
-=======
-![Deploying contract](Deploy.JPG)
->>>>>>> 0b3564fc6de30971844a0cffc2775c85220bcd93
 
 Use the setAccounts function to define the authorized Ethereum address that will be able to withdraw funds from your contract.
 
@@ -19,18 +15,13 @@ Use the following Ethereum addresses or create new, dummy addresses on the Vanit
 Dummy account1 address: 0x0c0669Cd5e60a6F4b8ce437E4a4A007093D368Cb
 Dummy account2 address: 0x7A1f3dFAa0a4a19844B606CD6e91d693083B12c0
 
-<<<<<<< HEAD
 ![Setting accounts](./screenshots/SetAccounts.JPG)
-=======
-![Setting accounts](SetAccounts.JPG)
->>>>>>> 0b3564fc6de30971844a0cffc2775c85220bcd93
 
 
 Test the deposit functionality of your smart contract by sending the following amounts of ether. After each transaction, use the contractBalance function to verify that the funds were added to your contract:
 
 
 Transaction 1: Send 1 ether as wei with the deploying address
-<<<<<<< HEAD
 ![First deposit](./screenshots/deposit_1Eth_w_msgSender.JPG)
 
 
@@ -40,17 +31,6 @@ Transaction 2: Send 10 ether as wei with a random address
 
 Transaction 3: Send 5 ether with a second random address
 ![Third deposit](./screenshots/adddeposit_10Eth_o_Account(3dr).JPG)
-=======
-![First deposit](deposit_1Eth_w_msgSender.JPG)
-
-
-Transaction 2: Send 10 ether as wei with a random address
-![Second deposit](deposit_5Eth_o_Account.JPG)
-
-
-Transaction 3: Send 5 ether with a second random address
-![Third deposit](deposit_10Eth_o_Account(3dr).JPG)
->>>>>>> 0b3564fc6de30971844a0cffc2775c85220bcd93
 
 
 You can notice that every deposit is gathered in the balancecontract. The three transactions gathered 16 ETH. 
@@ -70,7 +50,4 @@ In order to verify that the requirement is working. You can try to withdraw with
 ![Attempt Withdraw](Attempt-Withdraw_2Eth_o_Account.JPG)
 
 
-<<<<<<< HEAD
 
-=======
->>>>>>> 0b3564fc6de30971844a0cffc2775c85220bcd93
