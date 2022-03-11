@@ -30,7 +30,7 @@ Transaction 2: Send 10 ether as wei with a random address
 
 
 Transaction 3: Send 5 ether with a second random address
-![Third deposit](./screenshots/deposit_10Eth_o_Account(3dr).JPG)
+![Third deposit](./screenshots/adddeposit_10Eth_o_Account(3dr).JPG)
 
 
 You can notice that every deposit is gathered in the balancecontract. The three transactions gathered 16 ETH. 
